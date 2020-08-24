@@ -1,6 +1,6 @@
-# Desafio Frontend Liberfly
+# Desafio Frontend Liberfly 
 
-<img src="logo-liberfly.png" heigh="200px">
+<img src="logo-liberfly.png" width="1920">
 
 01 - Recriação da interface no Figma: 
     objetivo: 
@@ -9,3 +9,13 @@
 
 ### Resultado:
   <img src="figma.png">
+
+<br />
+<br /><br /><br /><br />
+<hr>
+
+# Ferramentas
+
+<a href="reactnative.dev"> React Native</a>
+<a href="styled-components.com"> Styled Components</a>
+<a href="expo.io"> Expo </a>
