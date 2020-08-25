@@ -1,7 +1,7 @@
 import styled from "styled-components/native";
 
 export const Top = styled.View`
-  margin-top: 50px;
+  margin-top: 40px;
   height: 30px;
   padding: 0 22px;
   display: flex;
@@ -17,34 +17,43 @@ export const Circle = styled.View`
   justify-content: center;
 `;
 export const BalanceContainer = styled.View`
-  position: absolute;
-  width: 286px;
-  height: 106px;
-  top: 120px;
-  left: 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* width: 200px; */
+  /* height: 106px; */
+
+  margin-top: 2%;
+  margin-right: 23%;
+  margin-left: 17%;
 `;
 export const BalanceTitle = styled.Text`
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 15px;
-  margin-bottom: 20px;
+  margin-bottom: 12px;
+  font-weight: 500;
   /* identical to box height */
 
   color: #000000;
 `;
 export const Balance = styled.Text`
   font-size: 68px;
-  padding: 0 20px;
+  padding: 0 18px;
 
 `;
 export const BalanceCurrecy = styled.Text`
   font-size: 18px;
-    margin-top: 60px;
+    margin-top: 57px;
+    margin-left: -14px;
+
+    
 `;
 export const BalanceCoin = styled.Text`
   font-size: 28px;
   margin-top: 15px;
+  margin-right: -14px;
 `;
 export const Money = styled.View`
   display: flex;

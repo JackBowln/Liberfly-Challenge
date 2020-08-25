@@ -5,7 +5,7 @@ export const Bar = styled.View`
     width: 81%;
     height: 160px;
     margin-left: 20%;
-    margin-top: 25vh;
+    margin-top: 4vh;
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
     padding: 20px 25px;
@@ -51,4 +51,5 @@ export const Add =styled.View`
     border-radius: 50%;
     width: 50px;
     height: 50px;
+    box-shadow: 0px 10px 40px gray;
 `;

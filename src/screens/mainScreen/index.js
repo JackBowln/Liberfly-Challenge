@@ -3,9 +3,12 @@ import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { Body } from './styles'
 import { MaterialCommunityIcons } from '@expo/vector-icons'
-import Header from './components/Header/header'
-import Tab from './components/Tab/tab'
-import Graphs from './components/Graphs/graphs'
+import Header from '../../components/Header/header'
+import Tab from '../../components/Tab/tab'
+import Graphs from '../../components/Graphs/graphs'
+import Bottom from '../../components/Bottom/bottom'
+
+
 export default function App() {
   return (
       <>
@@ -14,6 +17,7 @@ export default function App() {
           <Header></Header>
           <Tab></Tab>
           <Graphs></Graphs>
+          <Bottom></Bottom>
       </Body>
       </>
   );
