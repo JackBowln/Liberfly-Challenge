@@ -33,6 +33,7 @@ export default class Dropdown extends Component{
         
     }
 }
+
  const styles = StyleSheet.create({
      pickerComponente:{
          width: 80,

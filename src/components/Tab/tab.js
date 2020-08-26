@@ -1,8 +1,10 @@
 import React from 'react'
 import { EvilIcons, SimpleLineIcons, MaterialIcons } from '@expo/vector-icons'
+import { View, Button } from 'react-native'
 import {Bar, Icons, Infos, Income, Spending, Desc, Add} from './styles.js'
 
-export default function Tab(){
+
+export default function Tab({navigation}){
     return(
         <Bar>
             <Infos>
@@ -21,7 +23,14 @@ export default function Tab(){
                 <Desc>your spending</Desc>
                 </Spending>
            </Infos>
-           <Add><MaterialIcons name="keyboard-arrow-right" size={50} color="#fff" /></Add>
+           
+           <Add>
+           {/* <Button
+            title=">"
+            onPress={() => navigation.push("detailsScreen")}
+          ></Button> */}
+               <MaterialIcons name="keyboard-arrow-right" size={50} color="#fff" />
+            </Add>
         </Bar>
     )
 } 

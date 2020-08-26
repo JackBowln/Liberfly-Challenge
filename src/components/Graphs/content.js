@@ -63,16 +63,16 @@ export default function Amount() {
 
         <Specs2>
           <Bar12></Bar12>
-          <Text2>60</Text2>
+          <Text2 style={{marginLeft: '-5px'}}>60</Text2>
         </Specs2>
         <Specs2>
           <Bar22></Bar22>
           <Text2>20</Text2>
         </Specs2>
-        <Specs>
+        <Specs2>
           <Bar32></Bar32>
           <Text2>20</Text2>
-        </Specs>
+        </Specs2>
         <Specs2>
           <Bar42></Bar42>
           <Text2>20</Text2>
