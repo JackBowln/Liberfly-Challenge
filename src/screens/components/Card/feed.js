@@ -18,6 +18,7 @@ import {
   Currency,
   PriceContainer,
   Price,
+  Border
 } from "./styles";
 
 export default function Feed() {
@@ -26,7 +27,7 @@ export default function Feed() {
       <MiniCard>
         <ContainerTran>
         <Circle style={{ backgroundColor: "#113EDB" }}>
-          <MaterialIcons name="local-gas-station" size={24} color="#fff" />
+          <MaterialIcons name="local-gas-station" size={20} color="#fff" />
         </Circle>
         <InfoTran>
           <DescTran>CAR</DescTran>
@@ -34,17 +35,19 @@ export default function Feed() {
         </InfoTran>
         </ContainerTran>
         <PriceContainer>
-
         <Price><Currency>$ </Currency>120.00</Price>
         </PriceContainer>
       </MiniCard>
+      <Border></Border>
+
+
       <MiniCard>
         <ContainerTran>
         <Circle style={{ backgroundColor: "#4E75FF" }}>
-          <Feather name="coffee" size={24} color="#fff" />
+          <Feather name="coffee" size={18} color="#fff" />
         </Circle>
         <InfoTran>
-          <DescTran>Food</DescTran>
+          <DescTran>FOOD</DescTran>
           <SubTran>Bread</SubTran>
         </InfoTran>
         </ContainerTran>
@@ -53,14 +56,16 @@ export default function Feed() {
         <Price><Currency>$ </Currency>6.30</Price>
         </PriceContainer>
       </MiniCard>
+      <Border></Border>
+
       <MiniCard>
         <ContainerTran>
         <Circle style={{ backgroundColor: "#46639D" }}>
-          <AntDesign name="mobile1" size={24} color="#fff" />
+          <AntDesign name="mobile1" size={18} color="#fff" />
         </Circle>
 
         <InfoTran>
-          <DescTran>Mobile</DescTran>
+          <DescTran>MOBILE</DescTran>
           <SubTran>Phone</SubTran>
         </InfoTran>
         </ContainerTran>
@@ -68,14 +73,17 @@ export default function Feed() {
         <Price><Currency>$ </Currency>20.00</Price>
         </PriceContainer>
       </MiniCard>
+
+      <Border></Border>
+
       <MiniCard>
         <ContainerTran>
         <Circle style={{ backgroundColor: "#FF725B" }}>
-          <MaterialCommunityIcons name="bag-checked" size={24} color="#fff" />
+          <MaterialCommunityIcons name="bag-checked" size={20} color="#fff" />
         </Circle>
 
         <InfoTran>
-          <DescTran>Present</DescTran>
+          <DescTran>PRESENT</DescTran>
           <SubTran>Picture</SubTran>
         </InfoTran>
         </ContainerTran>
@@ -84,10 +92,13 @@ export default function Feed() {
         <Price><Currency>$ </Currency>360.00</Price>
         </PriceContainer>
       </MiniCard>
+
+      <Border></Border>
+
       <MiniCard>
         <ContainerTran>
         <Circle style={{ backgroundColor: "#C55AB4" }}>
-          <MaterialIcons name="pets" size={24} color="#fff" />
+          <MaterialIcons name="pets" size={20} color="#fff" />
         </Circle>
 
         <InfoTran>
@@ -100,6 +111,8 @@ export default function Feed() {
         <Price><Currency>$ </Currency>36.40</Price>
         </PriceContainer>
       </MiniCard>
+      <Border></Border>
+
     </CardFeed>
   );
 }

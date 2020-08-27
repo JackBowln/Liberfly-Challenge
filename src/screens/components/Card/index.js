@@ -1,6 +1,6 @@
 import React from "react";
 import { View, Text } from "react-native";
-import { AntDesign } from '@expo/vector-icons'; 
+import { AntDesign, Entypo } from '@expo/vector-icons'; 
 import { MainCard, CardTop, Add, AddBg,   } from "./styles";
 import Dropdown from "../../../components/Graphs/dropdown";
 import Feed from "./feed"
@@ -12,7 +12,8 @@ export default function Card() {
       <MainCard>
         <Add>
             <AddBg>
-          <AntDesign name="pluscircle" size={54} color="#4B75F2" />
+          {/* <AntDesign name="pluscircle" size={54} color="#4B75F2" /> */}
+          <Entypo name="plus" size={23} color="#fff" style={{padding: '12.5px'}}/>
             </AddBg>
         </Add>
         <CardTop>

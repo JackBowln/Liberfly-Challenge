@@ -9,7 +9,7 @@ export const Top = styled.View`
   justify-content: space-between;
 `;
 export const Circle = styled.View`
-  background-color: #ccc;
+  background-color: #eee;
   border-radius: 50%;
   width: 37px;
   height: 37px;
@@ -20,8 +20,6 @@ export const BalanceContainer = styled.View`
   display: flex;
   justify-content: center;
   flex-direction: column;
-  /* width: 200px; */
-  /* height: 106px; */
 
   margin-top: 2%;
   margin-right: 23%;
@@ -34,7 +32,6 @@ export const BalanceTitle = styled.Text`
   line-height: 15px;
   margin-bottom: 12px;
   font-weight: 500;
-  /* identical to box height */
 
   color: #000000;
 `;
