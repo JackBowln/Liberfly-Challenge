@@ -1,6 +1,6 @@
 import React from 'react'
 import { StyleSheet, Text, View } from 'react-native';
-import { MaterialCommunityIcons } from '@expo/vector-icons'
+import { MaterialCommunityIcons, Ionicons } from '@expo/vector-icons'
 import {Top, BalanceContainer, BalanceTitle, BalanceCoin, BalanceCurrecy, Balance, Money, Circle} from './styles.js'
 
 export default function Header(){
@@ -8,10 +8,10 @@ export default function Header(){
         <>
     <Top>
         <Circle>
-    <MaterialCommunityIcons name="arrow-left" size={25} color="#000"/>
+        <Ionicons name="ios-arrow-round-back" size={24} color="#000" />
         </Circle>
         <Circle>
-    <MaterialCommunityIcons name="face" size={32} color="#000" />
+    <MaterialCommunityIcons name="face" size={32} color="#222" />
         </Circle>
     </Top>
 

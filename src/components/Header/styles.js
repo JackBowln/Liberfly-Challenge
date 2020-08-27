@@ -33,7 +33,7 @@ export const BalanceTitle = styled.Text`
   margin-bottom: 12px;
   font-weight: 500;
 
-  color: #000000;
+  color: #AAA;
 `;
 export const Balance = styled.Text`
   font-size: 68px;

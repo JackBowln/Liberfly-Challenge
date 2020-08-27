@@ -29,7 +29,8 @@ export default function Tab({navigation}){
             title=">"
             onPress={() => navigation.push("detailsScreen")}
           ></Button> */}
-               <MaterialIcons name="keyboard-arrow-right" size={50} color="#fff" />
+               {/* <MaterialIcons name="keyboard-arrow-right" size={50} color="#fff" /> */}
+               <SimpleLineIcons name="arrow-right" size={15} color="#fff" style={{padding: '17px'}} />
             </Add>
         </Bar>
     )
