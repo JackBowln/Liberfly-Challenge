@@ -9,6 +9,14 @@ import Graphs from "../../components/Graphs/graphs";
 import Bottom from "../../components/Bottom/bottom";
 
 export default function MainScreen({ navigation }) {
+  var WebFont = require('webfontloader');
+
+WebFont.load({
+    google: {
+      families: ['Montserrat Alternates', 'Roboto', 'Comfortaa']
+    }
+  });
+
   return (
     <>
       <StatusBar style="dark" StatusBarAnimation="fade" />

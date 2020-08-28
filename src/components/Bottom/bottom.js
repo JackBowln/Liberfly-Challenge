@@ -5,7 +5,7 @@ import { LastTransactions, Btn } from "./styles";
 export default function Bottom(){
     return(
         <>
-        <LastTransactions>Last transactions</LastTransactions>
+        <LastTransactions style={{fontFamily: 'Montserrat Alternates'}}>last transactions</LastTransactions>
         <Btn></Btn>
         </>
     )

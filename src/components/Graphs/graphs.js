@@ -6,7 +6,7 @@ import Amount from './content'
 export default function Graphs() {
   return (
     <>
-    <Activity>
+    <Activity style={{fontFamily: 'Montserrat Alternates'}}>
       activity
      
     <Dropdown></Dropdown>

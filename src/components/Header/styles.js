@@ -26,14 +26,15 @@ export const BalanceContainer = styled.View`
   margin-left: 17%;
 `;
 export const BalanceTitle = styled.Text`
-  font-style: normal;
+  font-style: bold;
   font-weight: normal;
   font-size: 14px;
   line-height: 15px;
-  margin-bottom: 12px;
-  font-weight: 500;
+  padding: 30px -5px;
+  /* margin-bottom: 26px; */
+  /* font-weight: 500; */
 
-  color: #AAA;
+  color: #666;
 `;
 export const Balance = styled.Text`
   font-size: 68px;
@@ -42,17 +43,19 @@ export const Balance = styled.Text`
 `;
 export const BalanceCurrecy = styled.Text`
   font-size: 18px;
-    margin-top: 57px;
+    margin-top: 44px;
     margin-left: -14px;
 
     
 `;
 export const BalanceCoin = styled.Text`
-  font-size: 28px;
-  margin-top: 15px;
+  font-size: 42px;
+  margin-top: -4px;
   margin-right: -14px;
+  font-weight: 300;
 `;
 export const Money = styled.View`
   display: flex;
   flex-direction: row;
+  font-weight: 300;
 `;

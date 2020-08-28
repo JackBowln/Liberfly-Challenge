@@ -1,7 +1,6 @@
 import React, {Component} from 'react'
 import { StyleSheet, Text, View, Picker } from 'react-native';
 import {} from './styles'
-import { render } from 'react-dom';
 
 export default class Dropdown extends Component{
     state= {
@@ -37,11 +36,13 @@ export default class Dropdown extends Component{
  const styles = StyleSheet.create({
      pickerComponente:{
          width: 80,
+         height: 28,
          borderRadius: 20,
          marginLeft: 10,
-         marginTop: 2,
+         paddingLeft: 10, 
+         marginTop: 0,
          textDecorationLine:"none",
-         fontSize: 16,
+         fontSize: 12,
          color: "#B2B2B2",
          borderColor: "#B2B2B2",
      }

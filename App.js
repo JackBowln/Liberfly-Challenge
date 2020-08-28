@@ -10,7 +10,7 @@ const Stack = createStackNavigator();
 export default function Main() {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="MainScreen">
+      <Stack.Navigator initialRouteName="detailsScreen">
         <Stack.Screen
           name="MainScreen"
           options={{

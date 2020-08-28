@@ -2,6 +2,7 @@ import React from 'react'
 import { StyleSheet, Text, View } from 'react-native';
 import { MaterialCommunityIcons, Ionicons } from '@expo/vector-icons'
 import {Top, BalanceContainer, BalanceTitle, BalanceCoin, BalanceCurrecy, Balance, Money, Circle} from './styles.js'
+import '../../../assets/fonts/fonts.css'
 
 export default function Header(){
     return(
@@ -16,10 +17,10 @@ export default function Header(){
     </Top>
 
     <BalanceContainer>
-        <BalanceTitle> Current Balance </BalanceTitle>
+        <BalanceTitle style={{fontFamily: 'Montserrat Alternates', fontWeight: '500'}}> Current balance </BalanceTitle>
         <Money>
-        <BalanceCoin>$</BalanceCoin>
-        <Balance>120.60</Balance>
+        <BalanceCoin style={{fontFamily: 'Montserrat Alternates'}}>$</BalanceCoin>
+        <Balance style={{fontFamily: 'Comfortaa'}}>120.60</Balance>
         <BalanceCurrecy>USD</BalanceCurrecy>
         </Money>
     </BalanceContainer>
