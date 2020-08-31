@@ -93,7 +93,7 @@ export const InfoTran = styled.Text`
 `;
 export const DescTran = styled.Text`
   color: #939393;
-  font-size: 14px;
+  font-size: 10px;
 `;
 export const SubTran = styled.Text`
   font-weight: 600;

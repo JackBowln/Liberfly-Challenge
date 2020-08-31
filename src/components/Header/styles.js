@@ -23,7 +23,7 @@ export const BalanceContainer = styled.View`
 
   margin-top: 2%;
   margin-right: 23%;
-  margin-left: 17%;
+  margin-left: 14%;
 `;
 export const BalanceTitle = styled.Text`
   font-style: bold;
@@ -39,6 +39,7 @@ export const BalanceTitle = styled.Text`
 export const Balance = styled.Text`
   font-size: 68px;
   padding: 0 18px;
+  margin-left: 8px;
 
 `;
 export const BalanceCurrecy = styled.Text`

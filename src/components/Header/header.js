@@ -2,7 +2,6 @@ import React from 'react'
 import { StyleSheet, Text, View } from 'react-native';
 import { MaterialCommunityIcons, Ionicons } from '@expo/vector-icons'
 import {Top, BalanceContainer, BalanceTitle, BalanceCoin, BalanceCurrecy, Balance, Money, Circle} from './styles.js'
-import '../../../assets/fonts/fonts.css'
 
 export default function Header(){
     return(

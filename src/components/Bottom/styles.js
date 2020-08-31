@@ -10,8 +10,9 @@ export const LastTransactions = styled.Text`
 export const Btn = styled.Text`
   width: 48px;
   height: 48px;
-  border-radius: 48px;
+  border-radius: 100%;
   background-color: #1445D9;
   margin-left: 50px;
-  margin-bottom: -50px;
+  margin-bottom: -48px;
+  margin-top: -20px;
 `;
